@@ -59,3 +59,9 @@ nacional](https://www.cultura.gob.cl/wp-content/uploads/2013/04/Estudio-Comporta
 
 1.	[Informe estadístico Agenda Chilena ISBN](https://camaradellibro.cl/wp-content/uploads/2024/03/INFORME_2023_ISBN.pdf)
 1. 	[Los libros más populares de BookTok](https://www.planetadelibros.com/seleccion-editorial/libros-booktok) 
+
+### Link Carrusel
+[Carrusel](https://www.canva.com/design/DAGPppb3GXM/7x_D1EhXrcwrmlASqlx8GA/edit?utm_content=DAGPppb3GXM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+### Link a video 
+[Presentación](https://youtu.be/1bnnNLbj2lU)
