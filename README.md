@@ -48,3 +48,12 @@ Crear una **línea de tiempo interactiva** que muestre el ciclo de vida de un li
 Estos recursos transforman la manera en que la historia es percibida y comprendida, asegurando que el mensaje resuene de manera más efectiva y que los datos y tendencias presentados se vuelvan más accesibles y atractivos
 
 ### Base de datos inicial
+1. https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-22952016000300002
+1. 	https://rua.ua.es/dspace/bitstream/10045/144825/1/Segarra_Torres_2024_Ocnos_esp.pdf
+1. 	https://www.cultura.gob.cl/wp-content/uploads/2013/04/Estudio-Comportamiento-Lector.pdf
+1. 	https://www.biobiochile.cl/noticias/artes-y-cultura/libros/2022/10/21/booktok-como-los-influencers-de-tiktok-estan-cambiando-el-mercado-del-libro-a-nivel-mundial.shtml
+1. https://www.cultura.gob.cl/politicas-culturales/wp-content/uploads/sites/2/2016/11/estudio-editoriales-independientes.pdf
+1. https://www.accioncultural.es/media/Default%20Files/activ/2014/Adj/Anuario_ACE_2014/8RedesSociales_JPen%CC%83a.pdf
+1.	https://camaradellibro.cl/wp-content/uploads/2024/03/INFORME_2023_ISBN.pdf
+1. 	https://www.planetadelibros.com/seleccion-editorial/libros-booktok
+)
