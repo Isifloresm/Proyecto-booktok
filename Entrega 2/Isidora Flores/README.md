@@ -18,7 +18,7 @@ Utilicé la página de los Best sellers de New York Times, ya que este ranking e
 
 1. ¿Cuál es el género literario que más tiempo ha permanecido en el ranking de Best Sellers durante el 2022?
 
-1. ¿Qué autores tienen más libros en el top 15 a lo largo del año y qué impacto tienen en el ranking?
+1. ¿Qué autores tienen más libros en el top 15 a lo largo del año?
 
 1. ¿Cuáles son los libros que se mantuvieron en el número 1 por más semanas consecutivas?
 
