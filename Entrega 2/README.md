@@ -1,5 +1,10 @@
 # Entrega 2
+ 
+Hicimos una base de datos de los libros best seller según el New York Times durante 3 años diferentes: 2021, 2022 y 2024. Son 56 semanas aproximadamente por año y los dividimos en dos categorias: **Combined Print & E-Book Fiction y Combined Print & E-Book Nonfiction.** 
 
-- analisis 3 años dif 
-- donde es la info 
-- 56 semanas dos categorias distintas y clasificamos segun genero autor ranking titulo semanas en la lista
+Además clasificamos cada libro según su **género, el autor o autora,posición en el ranking y cuantas semanas lleva en la lista** del New York Times. 
+
+## Link Video
+
+
+## Link Carrusel
