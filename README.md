@@ -48,12 +48,20 @@ Crear una **línea de tiempo interactiva** que muestre el ciclo de vida de un li
 Estos recursos transforman la manera en que la historia es percibida y comprendida, asegurando que el mensaje resuene de manera más efectiva y que los datos y tendencias presentados se vuelvan más accesibles y atractivos
 
 ### Base de datos inicial
-1. https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-22952016000300002
-1. 	https://rua.ua.es/dspace/bitstream/10045/144825/1/Segarra_Torres_2024_Ocnos_esp.pdf
-1. 	https://www.cultura.gob.cl/wp-content/uploads/2013/04/Estudio-Comportamiento-Lector.pdf
-1. 	https://www.biobiochile.cl/noticias/artes-y-cultura/libros/2022/10/21/booktok-como-los-influencers-de-tiktok-estan-cambiando-el-mercado-del-libro-a-nivel-mundial.shtml
-1. https://www.cultura.gob.cl/politicas-culturales/wp-content/uploads/sites/2/2016/11/estudio-editoriales-independientes.pdf
-1. https://www.accioncultural.es/media/Default%20Files/activ/2014/Adj/Anuario_ACE_2014/8RedesSociales_JPen%CC%83a.pdf
-1.	https://camaradellibro.cl/wp-content/uploads/2024/03/INFORME_2023_ISBN.pdf
-1. 	https://www.planetadelibros.com/seleccion-editorial/libros-booktok
-)
+1. [La lectura en el entorno digital](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-22952016000300002)
+1. [Promoción de libros y fomento de la lectura a través de
+influencers literarios en TikTok](https://rua.ua.es/dspace/bitstream/10045/144825/1/Segarra_Torres_2024_Ocnos_esp.pdf)
+1. [Estudio sobre el comportamiento lector a nivel
+nacional](https://www.cultura.gob.cl/wp-content/uploads/2013/04/Estudio-Comportamiento-Lector.pdf)
+1. [BookTok: cómo los influencers de TikTok están cambiando el mercado del libro a nivel mundial](https://www.biobiochile.cl/noticias/artes-y-cultura/libros/2022/10/21/booktok-como-los-influencers-de-tiktok-estan-cambiando-el-mercado-del-libro-a-nivel-mundial.shtml)
+1. [La edición independiente en Chile](https://www.cultura.gob.cl/politicas-culturales/wp-content/uploads/sites/2/2016/11/estudio-editoriales-independientes.pdf)
+1. [¿Sirven para algo las redes  sociales en el sector cultural?](https://www.accioncultural.es/media/Default%20Files/activ/2014/Adj/Anuario_ACE_2014/8RedesSociales_JPen%CC%83a.pdf)
+
+1.	[Informe estadístico Agenda Chilena ISBN](https://camaradellibro.cl/wp-content/uploads/2024/03/INFORME_2023_ISBN.pdf)
+1. 	[Los libros más populares de BookTok](https://www.planetadelibros.com/seleccion-editorial/libros-booktok) 
+
+### Link Carrusel
+[Carrusel](https://www.canva.com/design/DAGPppb3GXM/7x_D1EhXrcwrmlASqlx8GA/edit?utm_content=DAGPppb3GXM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+### Link a video 
+[Presentación](https://youtu.be/1bnnNLbj2lU)
