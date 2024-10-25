@@ -21,6 +21,29 @@ User 3: Representa a una generación que ha tenido que aprender a integrar nueva
 
 ## Creación de identidad visual: ideas generadas, conceptos explorados, antecedentes y referentes vistos, justificación de las elecciones finales.
 
+Creación de Identidad Visual
+
+La identidad visual del proyecto "El Fenómeno Booktok: Cómo las redes sociales influyen en el mercado literario" se desarrolló bajo la premisa de reflejar la relación dinámica entre los libros y las redes sociales y cómo la promoción de estos a traves de plataformas como TikTok pueden influir en el alcance que estos libros tienen. Dado que nuestro público objetivo está compuesto mayoritariamente por mujeres jóvenes y adultas interesadas en la lectura, decidimos crear una imagen visual minimalista, delicada y femenina, acorde con los intereses y comportamientos de nuestra audiencia.
+
+Colores y Paleta de Colores:
+Optamos por una paleta de colores sencilla y relacionada con la estética tradicional de los libros y el papel. Los tonos claros, rosados, beiges y marrones claros evocan la sensación de cómo se ven las páginas de un libro. Estos colores también tienen la ventaja de ser discretos y no interferir con el contenido principal. 
+
+Tipografía:
+La elección de la tipografía sigue la misma línea minimalista. Nos inclinamos por una fuente de estilo clásico y elegante que pudiera evocar lo tradicional de los libros, pero que a la vez sea moderna y fácil de leer en medios digitales. Se seleccionaron las tipografías Merriweather para los textos principales, y Old Standard para el resto, ambas disponibles en Google Fonts. La tipografía refuerza el estilo femenino y delicado, ofreciendo una sensación de sofisticación que es acorde con la naturaleza literaria del proyecto.
+
+Identificador Gráfico:
+El identificador gráfico incluye una pluma, que es un símbolo universal de la escritura y la literatura. Su trazo fino y elegante refuerza la estética minimalista del proyecto, conectando lo visual con el contenido literario. La simplicidad del diseño del logo permite que sea fácil de reconocer y aplicar en diferentes contextos sin perder su impacto visual. También creamos un logo secundario, más simple y  fácil de identificar que contiene una pluma escribiendo encima de un teléfono, lo que refleja nuestro contenido.
+
+Antecedentes y Referentes Visuales:
+Para crear esta identidad, nos basamos en referentes minimalistas como el reportaje 
+"A look at gender inequality: Women in the pacific" (link: https://holtzy.github.io/pacific-challenge/), que presenta una estructura visual clara y sencilla, enfocada en no distraer al usuario del contenido principal. La estética limpia y bien definida de este proyecto nos sirvió como inspiración para nuestra propia webstory, priorizando la claridad sobre la complejidad visual.
+
+Justificación de las Elecciones Finales:
+Cada uno de los elementos elegidos está pensado para conectar con el público objetivo: un diseño minimalista que refleja el amor por los libros, combinado con una estética femenina que resuena con la audiencia. La simplicidad de los colores y tipografías garantiza que la experiencia del usuario sea clara y sin distracciones, permitiendo que el contenido sea lo más importante. El identificador gráfico, con su simbología literaria, refuerza el tema central del proyecto y se integra fácilmente en diferentes plataformas y aplicaciones.
+
+
+
+
 
 ## Prototipado: justificación de la propuesta de navegación y distribución de la información.
 
