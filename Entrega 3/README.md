@@ -19,8 +19,9 @@ User 3: Representa a una generación que ha tenido que aprender a integrar nueva
 
 [Tiktok y escritores](https://publishingstate.com/how-tiktok-is-transforming-book-marketing/2024/)
 
-
-
 ## Creación de identidad visual: ideas generadas, conceptos explorados, antecedentes y referentes vistos, justificación de las elecciones finales.
 
+
 ## Prototipado: justificación de la propuesta de navegación y distribución de la información.
+
+El wireframe se construyó a partir de la identidad visual creada. Considerando los elementos gráficos, los colores y el logo creado. A partir de esto, se construyó un prototipo de página web, pensada en usarla a través de un computador, que fuera intuitiva y enfocada en el objetivo de presentar el fenómeno del BookTok, y cómo este ha impactado en la venta de libros. Todo esto a través de la presentación del fenómeno, contexto histórico, el impacto de las redes sociales, presentar datos cuantitativos que respalden nuestra tesis y por último, ejemplificar cómo esto impacta en la venta de libros.
