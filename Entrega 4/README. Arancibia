@@ -1,0 +1,4 @@
+#Proceso
+Para realizar la visualización utilicé la base de datos realizada del año 2021, que incorporaba los datos acerca de los titulares, autores, géneros, semanas y categorías de libros más vendidos.
+A partir de esos datos, seleccioné los titulares para visualizar los 10 más vendidos durante ese período. Posteriormente por medio de Altair en Google Colab seleccioné los datos 
+y generé un gráfico de barras con los titulares más vendidos. En el eje Y puse los titulares y en el eje X la cantidad de repeticiones en el ranking de más vendidos. 
