@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-e069be420e017ba12ae914fe81efa0b5"},
+  "mark": "bar",
+  "encoding": {
+    "color": {"field": "Genero", "type": "nominal"},
+    "tooltip": [
+      {"field": "Genero", "type": "nominal"},
+      {"field": "tiempo_en_el_ranking", "type": "quantitative"}
+    ],
+    "x": {
+      "field": "tiempo_en_el_ranking",
+      "title": "Tiempo Promedio en el Ranking (Días)",
+      "type": "quantitative"
+    },
+    "y": {"field": "Genero", "sort": "-x", "title": "Género", "type": "nominal"}
+  },
+  "height": 400,
+  "title": "Popularidad de Géneros Según el Tiempo Promedio en el Ranking",
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-e069be420e017ba12ae914fe81efa0b5": [
+      {"Genero": " Autoayuda", "tiempo_en_el_ranking": 43},
+      {"Genero": "Thriller", "tiempo_en_el_ranking": 40.67027027027027},
+      {"Genero": "Autobiografía", "tiempo_en_el_ranking": 30.541666666666668},
+      {"Genero": "Ciencia Ficción", "tiempo_en_el_ranking": 29.304347826086957},
+      {"Genero": "Romance", "tiempo_en_el_ranking": 23.336805555555557},
+      {"Genero": "Coming of age", "tiempo_en_el_ranking": 15.857142857142858},
+      {"Genero": "Misterio histórico ", "tiempo_en_el_ranking": 8},
+      {"Genero": "Crimen", "tiempo_en_el_ranking": 6.8},
+      {"Genero": "Política", "tiempo_en_el_ranking": 6.527472527472527},
+      {"Genero": "Historia", "tiempo_en_el_ranking": 6.5131578947368425},
+      {"Genero": "Biografia ", "tiempo_en_el_ranking": 6.166666666666667},
+      {"Genero": "Ciencia", "tiempo_en_el_ranking": 6},
+      {"Genero": "Misterio ", "tiempo_en_el_ranking": 6},
+      {"Genero": "Fantasía", "tiempo_en_el_ranking": 4.909090909090909},
+      {"Genero": "Salud", "tiempo_en_el_ranking": 4.555555555555555},
+      {"Genero": "Biografía", "tiempo_en_el_ranking": 3.7027027027027026},
+      {"Genero": "Terror psicológico", "tiempo_en_el_ranking": 3.5},
+      {"Genero": "Ensayo", "tiempo_en_el_ranking": 3.037037037037037},
+      {"Genero": "Poesía", "tiempo_en_el_ranking": 3},
+      {"Genero": "Misterio", "tiempo_en_el_ranking": 2.473684210526316},
+      {"Genero": "Drama", "tiempo_en_el_ranking": 2.3278688524590163},
+      {"Genero": "Fantasia", "tiempo_en_el_ranking": 1.5},
+      {"Genero": "Suspenso", "tiempo_en_el_ranking": 1},
+      {"Genero": "AutoBiografía", "tiempo_en_el_ranking": 1},
+      {"Genero": "Novela Histórica", "tiempo_en_el_ranking": 1},
+      {"Genero": "Medicina", "tiempo_en_el_ranking": 1},
+      {"Genero": "Arte", "tiempo_en_el_ranking": 1},
+      {"Genero": "Deporte", "tiempo_en_el_ranking": 1},
+      {"Genero": "Biografía ", "tiempo_en_el_ranking": 1},
+      {"Genero": "Filosofía", "tiempo_en_el_ranking": 1}
+    ]
+  }
+};
+    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>
