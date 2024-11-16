@@ -1,0 +1,8 @@
+# Autores que marcaron el 2023: Mujeres conquistan las listas de Best Sellers
+En un año donde las historias se han convertido en espejos de la realidad y refugios emocionales, las mujeres escritoras han marcado una huella innegable en las preferencias literarias. De los 10 autores más vendidos según el ranking del New York Times en 2023, siete son mujeres, consolidando su presencia en un espacio que durante décadas fue dominado mayoritariamente por hombres.
+
+El listado lo lidera Bonnie Garmus, autora que atrapó a los lectores con su aguda visión sobre temas sociales y humanos. Colleen Hoover, por su parte, en tercer lugar continuó cautivando con historias que exploran las complejidades del amor y las cicatrices emocionales. Taylor Jenkins Reid y Rebecca Yarros también dejaron su marca, con relatos que abordan desde la fama y la pérdida hasta las emociones más intensas del romance contemporáneo. Jennette McCurdy, con su honesta autobiografía, ofreció un testimonio valiente que resonó profundamente con su audiencia.
+
+El dominio femenino no opacó la presencia de autores masculinos como Bessel van der Kolk, quien se posicionó como una referencia en temas de salud mental, o David Grann, cuyas narrativas cautivaron por su rigor y capacidad de intriga. Junto a ellos, nombres como Peter Attia y Robin Wall Kimmerer demostraron que la no ficción también tiene un lugar destacado en las preferencias de los lectores.
+
+La lista del 2023 es más que un simple ranking: es un reflejo de cómo la literatura femenina sigue ganando terreno, reafirmando que, en las palabras, no hay límites de género para el éxito.
