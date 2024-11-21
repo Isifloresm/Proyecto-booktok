@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-11dc1a44866aab189d2fb5a1017794c6"},
+  "mark": "bar",
+  "encoding": {
+    "color": {
+      "field": "Autor",
+      "scale": {
+        "domain": [
+          "Bonnie Garmus",
+          "Bessel van der Kolk",
+          "Colleen Hoover",
+          "Jennette McCurdy",
+          "Peter Attia with Bill Gifford",
+          "David Grann",
+          "Taylor Jenkins Reid",
+          "Robin Wall Kimmerer",
+          "Bell Hooks",
+          "Rebecca Yarros"
+        ],
+        "range": [
+          "#FF5733",
+          "#33FF57",
+          "#5733FF",
+          "#FF33A1",
+          "#FF8C00",
+          "#4B0082",
+          "#800080",
+          "#00FF7F",
+          "#D2691E",
+          "#A52A2A"
+        ]
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {"field": "Autor", "type": "nominal"},
+      {"field": "Semanas en ranking", "type": "quantitative"}
+    ],
+    "x": {
+      "field": "Semanas en ranking",
+      "title": "Total de semanas en el ranking",
+      "type": "quantitative"
+    },
+    "y": {"field": "Autor", "sort": "-x", "title": "Autor", "type": "nominal"}
+  },
+  "height": 400,
+  "title": "Top 10 Autores Más Vendidos en 2023 (NYT) según semanas en ranking",
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-11dc1a44866aab189d2fb5a1017794c6": [
+      {"Autor": "Bonnie Garmus", "Semanas en ranking": 53},
+      {"Autor": "Bessel van der Kolk", "Semanas en ranking": 52},
+      {"Autor": "Colleen Hoover", "Semanas en ranking": 42},
+      {"Autor": "Jennette McCurdy", "Semanas en ranking": 41},
+      {"Autor": "Peter Attia with Bill Gifford", "Semanas en ranking": 38},
+      {"Autor": "David Grann", "Semanas en ranking": 37},
+      {"Autor": "Taylor Jenkins Reid", "Semanas en ranking": 37},
+      {"Autor": "Robin Wall Kimmerer", "Semanas en ranking": 36},
+      {"Autor": "Rebecca Yarros", "Semanas en ranking": 33},
+      {"Autor": "Bell Hooks", "Semanas en ranking": 29}
+    ]
+  }
+};
+    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>
