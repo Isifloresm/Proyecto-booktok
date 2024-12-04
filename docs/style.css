@@ -6,78 +6,119 @@ body {
     line-height: 1.6;
     color: #333;
 }
+
 header {
     background-color: #e8dcc2; /* Un tono más oscuro para resaltar el encabezado */
     padding: 1rem;
     text-align: center;
     border-bottom: 2px solid #d3c4a3;
 }
+
 header h1 {
     margin: 0;
     font-size: 2rem;
     color: #4a3c31;
-    h1, h2 {
-        text-align: center;
-    }
 }
+
 h1, h2 {
     text-align: center;
 }
+
 main {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 2rem; /* Espacio interno para evitar que el contenido quede pegado a los bordes */
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: 0 auto; /* Centra el contenido en pantallas grandes */
+    width: 100%; /* Asegura que el contenido ocupe el ancho completo en pantallas pequeñas */
 }
+
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Espaciado entre secciones */
+    padding: 1.5rem;
+    background-color: #fff; /* Fondo blanco para contraste */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
+
+/* Líneas decorativas debajo de los títulos */
+section h2 {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #4a3c31;
+}
+
+section h2::after {
+    content: '';
+    display: block;
+    width: 50%; /* Largo de la línea debajo del título */
+    height: 2px; /* Grosor de la línea */
+    background-color: #d3c4a3; /* Color de la línea */
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #e8dcc2;
-    border-top: 2px solid #d3c4a3;/* Contenedor de la animación */
-    #animation-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.9);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-    }
-    
-    /* Ajuste del tamaño del libro animado */
-    #book {
-        width: 150px; /* Tamaño del GIF */
-        height: auto; /* Mantén las proporciones */
-        animation: move 3s linear infinite;
-    }
-    
-    /* Animación de movimiento */
-    @keyframes move {
-        0% {
-            transform: translate(0, 0);
-        }
-        25% {
-            transform: translate(20px, 0);
-        }
-        50% {
-            transform: translate(20px, 20px);
-        }
-        75% {
-            transform: translate(0, 20px);
-        }
-        100% {
-            transform: translate(0, 0);
-        }
-    }
-    
+    border-top: 2px solid #d3c4a3;
 }
+
 footer p {
     margin: 0;
     font-size: 0.9rem;
     color: #4a3c31;
+}
+
+/* Contenedor de la animación */
+#animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Ajuste del tamaño del libro animado */
+#book {
+    width: 150px; /* Tamaño del GIF */
+    height: auto; /* Mantén las proporciones */
+    animation: move 3s linear infinite;
+}
+
+/* Animación de movimiento */
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(20px, 0);
+    }
+    50% {
+        transform: translate(20px, 20px);
+    }
+    75% {
+        transform: translate(0, 20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem; /* Reduce el relleno en pantallas pequeñas */
+        max-width: 100%; /* Elimina el límite de ancho */
+    }
+
+    section {
+        padding: 1rem; /* Reduce el espacio interno en secciones */
+    }
 }
