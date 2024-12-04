@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booktok y el Éxito Literario</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
 
 
     <style>
@@ -54,24 +57,24 @@
     <header>
         <h1>El Impacto de BookTok en la Literatura</h1>
     </header>
-    
+
     <main>
         <!-- Sección de Inicio -->
         <section id="inicio">
             <h2>¿Conoces estos libros?</h2>
-        
+
             <p>En los últimos años, Colleen Hoover pasó de vivir en un tráiler con su esposo camionero y sus tres hijos en una pequeña ciudad de Texas, a convertirse en una de las escritoras más exitosas del último tiempo.
                 Si bien tiene más de 25 libros publicados desde el 2012, su ascenso a la fama como escritora se catapultó en la pandemia, especialmente gracias a TikTok y su comunidad literaria.
 
             </p>
         </section>
-        
+
         <!-- Sección de Desarrollo -->
         <section id="desarrollo">
             <h2>El fenómeno BookTok</h2>
             <p>El fenómeno BookTok nació como un hashtag en TikTok que reúne a millones de amantes de la literatura, convirtiendo esta red social en un espacio de interacción y creatividad literaria. Bajo este hashtag que tuvo su auge el año 2021, los usuarios, conocidos como booktokers, comparten reseñas, recomendaciones, recreaciones de escenas de libros, retos de lectura, y mucho más, utilizando videos cortos que incluyen música popular y efectos visuales llamativos. Este formato ha demostrado ser eficaz para captar audiencias jóvenes y generar engagement.
                 </p>
-             <p> Pero BookTok no solo es un espacio para compartir recomendaciones, sino que también ha revolucionado el sector editorial. Las editoriales han respondido a este fenómeno creando cuentas oficiales donde promocionan sus lanzamientos e interactúan con sus audiencias. Ejemplos como Penguin Random House y Planeta destacan cómo las grandes marcas se adaptan a estas tendencias. 
+             <p> Pero BookTok no solo es un espacio para compartir recomendaciones, sino que también ha revolucionado el sector editorial. Las editoriales han respondido a este fenómeno creando cuentas oficiales donde promocionan sus lanzamientos e interactúan con sus audiencias. Ejemplos como Penguin Random House y Planeta destacan cómo las grandes marcas se adaptan a estas tendencias.
                 </p>
                 <div style="text-align: center;">
                     <img src="Penguin Random House.png" alt="Descripción de la imagen" width="700">
@@ -83,16 +86,17 @@
             <!-- Insertar el gráfico interactivo de Flourish -->
             <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20560511"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20560511/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
         </section>
-        <h2>Gráfico autores más vendidos NYT</h2>
-    <iframe src="visualization (1).html" width="800" height="600"></iframe>
-<p>hola desarrollo</p>
-<h2>Gráfico libros más vendidos NYT</h2>
-    <iframe src="visualization (2).html" width="800" height="600"></iframe>
-    <p>Explicación bla bla bla</p>
+        <section id="grafico-autores">
+            <h2>Gráfico autores más vendidos NYT</h2>
+            <div id="vis-autores"></div>
+            <p>hola desarrollo</p>
+            <h2>Gráfico libros más vendidos NYT</h2>
+            <div id="vis-libros"></div>
+            <p>Explicación bla bla bla</p>
 
-    <h2>Gráfico libros más mencionados TikTok</h2>
-    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20580288"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20580288/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
-</section>
+            <h2>Gráfico libros más mencionados TikTok</h2>
+            <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20580288"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20580288/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+        </section>
 
         <!-- Sección de Cierre -->
         <section id="cierre">
@@ -115,5 +119,8 @@
             }, 3000);
         });
     </script>
+    <!-- Importamos la parte de javascript de los gráficos -->
+    <script src="graficos-altair/vis-autores.js" type="application/javascript"></script>
+    <script src="graficos-altair/vis-libros.js" type="application/javascript"></script>
 </body>
 </html>
