@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booktok y el Éxito Literario</title>
     <link rel="stylesheet" href="style.css">
-  
+
         <style>
             body {
                 background-image: url('fondo pagina web.png'); /* Aquí se coloca el nombre del archivo de la imagen */
@@ -16,8 +16,11 @@
             }
         </style>
        <link rel="icon" href="android-chrome-512x512.png" sizes="512x512" type="image/png">
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
     </head>
-    
+
     <style>
 
         #animation-container {
@@ -59,7 +62,7 @@
 </head>
 <body>
 
-      
+
     </main>
     <div id="animation-container">
         <img id="book" src="booktok .gif" alt="Libro animado">
@@ -80,7 +83,7 @@
       <a href="#Capítulo 6" class="nav__item">Capítulo 6</a>
     </nav>
     </header>
-    
+
     <main>
         <!-- Sección de Inicio -->
         <section id="inicio">
@@ -89,30 +92,30 @@
             <div style="text-align: center;">
                 <img src="3 libros.png" alt="Descripción de la imagen" width="500">
             </div>
-         
-        
+
+
             <p>En los últimos años, Colleen Hoover pasó de vivir en un tráiler con su esposo camionero y sus tres hijos en una pequeña ciudad de Texas, a convertirse en una de las escritoras más exitosas del último tiempo.
-              </p>  
+              </p>
             <p> Si bien tiene más de 25 libros publicados desde el 2012, su ascenso a la fama como escritora se catapultó en la pandemia, especialmente gracias a TikTok y su comunidad literaria.
-            </p> 
+            </p>
             <div style="text-align: center;">
                 <img src="colleen hoover.jpg" alt="Descripción de la imagen" width="400">
             </div>
             <p>BookTok, la comunidad literaria de TikTok, reúne a usuarios que comparten videos leyendo, reaccionando y calificando libros. Dentro de este espacio, Hoover se ha consolidado como una de las autoras más populares, logrando que su libro más famoso en la plataforma, It Ends With Us, sea adaptado al cine.</p>
             <p>Un artículo de <a href="https://www.forbes.com/sites/annakaplan/2022/01/28/how-tiktok-helped-fuel-the-best-selling-year-for-print-books/ " target="_blank">Forbes</a> destacó que TikTok contribuyó a un aumento del 9 % en las ventas de libros, evidenciando cómo esta nueva comunidad digital tiene el potencial de transformar el mercado literario. Entonces, ¿es posible que BookTok no solo impulse autores, sino que también cambie las reglas de la industria editorial?</p>
         </section>
-        
+
         <!-- Sección de Desarrollo -->
         <section id="Capítulo 1">
             <h2>Capítulo 1: El fenómeno BookTok</h2>
             <p>El fenómeno BookTok nació como un hashtag en TikTok que reúne a millones de amantes de la literatura, convirtiendo esta red social en un espacio de interacción y creatividad literaria. Bajo este hashtag que tuvo su auge el año 2021, los usuarios, conocidos como Booktokers, comparten reseñas, recomendaciones, recreaciones de escenas de libros, retos de lectura, y mucho más, utilizando videos cortos que incluyen música popular y efectos visuales llamativos. Este formato ha demostrado ser eficaz para captar audiencias jóvenes y generar engagement.
                 </p>
-             <p> Pero BookTok no solo es un espacio para compartir recomendaciones, sino que también ha revolucionado el sector editorial. Las editoriales han respondido a este fenómeno creando cuentas oficiales donde promocionan sus lanzamientos e interactúan con sus audiencias. Ejemplos como Penguin Random House y Planeta destacan cómo las grandes marcas se adaptan a estas tendencias. 
+             <p> Pero BookTok no solo es un espacio para compartir recomendaciones, sino que también ha revolucionado el sector editorial. Las editoriales han respondido a este fenómeno creando cuentas oficiales donde promocionan sus lanzamientos e interactúan con sus audiencias. Ejemplos como Penguin Random House y Planeta destacan cómo las grandes marcas se adaptan a estas tendencias.
                 </p>
                 <div style="text-align: center;">
                     <img src="Penguin Random House.png" alt="Descripción de la imagen" width="1000">
-              </section>       
                 </div>
+              </section>
                 <section id="desarrollo">
                 <p>Desde los inicios de este fenómeno, Colleen Hoover se ha destacado como una de las autoras más vinculadas al éxito en BookTok. Según un análisis que realizamos basado en un listado de los autores más mencionados en TikTok, recopilado a partir de los 15 videos más populares en la aplicación en los años 2021, 2022 y 2023, la autora de novelas de ficción y romance contemporáneo lidera con 13 menciones a sus obras y un impresionante alcance de 54 millones de visualizaciones. Este nivel de popularidad no solo refleja su impacto en redes sociales, sino que también la conecta directamente con el perfil de lector joven que predomina en esta plataforma.
                 </p>
@@ -129,9 +132,9 @@
         </p>
         <p>Pero ¿cómo se relaciona el hecho de que una escritora sea mencionada regularmente en TikTok con que realmente triunfe en el mercado literario?</p>
         <h3>Autores más vendidos según el New York Times</h3>
-    
-        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-            <iframe src="visualization (1).html" width="800" height="600"></iframe>
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div id="vis-autores"></div>
         </div>
         </section>
 
@@ -142,8 +145,8 @@
 <p>El libro con mayor éxito en ventas durante ese periodo fue The Body Keeps The Score, del autor Bessel van der Kolk, que destacó en la categoría de no ficción por su tiempo de permanencia en la lista. Por su parte, Colleen Hoover se consolidó como la autora más vendida en la categoría de ficción y ocupó el segundo lugar en ambas categorías combinadas.</p>
 <p>Hoover también sobresale como la única escritora con más de un título en este ranking. Su novela más popular en TikTok, It Ends With Us, una obra enfocada en la violencia doméstica y abuso emocional encabeza la lista, seguida por Verity y Ugly Love, reafirmando su impacto tanto en las redes sociales como en el mercado editorial.</p>
 <h3>Libros más vendidos según New York Times</h3>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <iframe src="visualization (2).html" width="800" height="600"></iframe>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div id="vis-libros"></div>
 </div>
 <p>En el caso de TikTok, los libros de Colleen Hoover destacan de manera abrumadora. En los 15 videos analizados durante los últimos tres años, seis de sus obras se mencionan recurrentemente, consolidando su posición como una de las autoras favoritas de la comunidad BookTok. Taylor Jenkins Reid también tiene dos de sus obras en este listado.</p>
 
@@ -152,15 +155,15 @@
    </section>
 
     <section id="Capítulo 3">
-    <h2>Capítulo 3: Géneros literarios y tendencias </h2> 
+    <h2>Capítulo 3: Géneros literarios y tendencias </h2>
     <p>Si bien los lectores comparten ciertos criterios a la hora de elegir autores y títulos, las plataformas donde se habla de literatura revelan diferencias notables, especialmente en cuanto a géneros favoritos.</p>
     <p>Mientras que el New York Times refleja la diversidad de géneros que lideran las ventas en un mercado más amplio, TikTok ha creado su propio ecosistema literario, donde el romance y la ficción reinan indiscutiblemente.
     </p>
     <p>En el ranking del New York Times, géneros como las autobiografías, los thrillers y el romance contemporáneo ocupan los primeros lugares en ventas. Esto demuestra la capacidad de estos libros para captar la atención de un público diverso, que busca desde historias reales hasta intrigas que los mantengan al borde del asiento.
     </p>
     <h3>Géneros más vendidos según New York Times</h3>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <iframe src="visualization (3).html" width="800" height="600"></iframe>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div id="vis-generos"></div>
     </div>
 
     <p>Por otro lado, en TikTok, las menciones literarias están dominadas casi por completo por el romance y la ficción. Autoras como Colleen Hoover y Taylor Jenkins Reid se han convertido en las favoritas de esta comunidad, impulsadas por recomendaciones sinceras, emociones compartidas y la viralidad de los videos</p>
@@ -169,18 +172,18 @@
     <p>Esta diferencia entre los géneros destacados en ambas plataformas no solo evidencia los intereses variados de los lectores, sino también cómo los espacios digitales pueden moldear lo que leemos y cómo lo leemos. TikTok celebra las historias cargadas de emociones y conexiones humanas, mientras que el New York Times captura un espectro más amplio de intereses literarios.</p>
 
     </section>
-    
-    <Section id="Capítulo 4"> 
+
+    <Section id="Capítulo 4">
         <h2>Capítulo 4: La opinión de los lectores </h2>
-       <p>El impacto y viralización de ciertos autores y títulos en redes sociales como Tiktok, va más allá del éxito en las ventas. Existen diversas plataformas dedicadas a los lectores, una de estas es Goodreads.</p> 
+       <p>El impacto y viralización de ciertos autores y títulos en redes sociales como Tiktok, va más allá del éxito en las ventas. Existen diversas plataformas dedicadas a los lectores, una de estas es Goodreads.</p>
     <p>Goodreads es una red social dedicada a los amantes de los libros, donde los usuarios pueden crear perfiles, calificar y reseñar libros, y compartir recomendaciones con amigos y otros lectores. Cada año, Goodreads organiza los Goodreads Choice Awards, una premiación que reconoce lo mejor de la literatura en diversas categorías, según las votaciones de los propios usuarios de la plataforma, los que pueden elegir entre una amplia variedad de títulos. Estos premios incluyen categorías como Ficción, No Ficción, Romance, Ciencia Ficción, Fantasía, Thriller, entre otras.</p>
    <p>En el año 2022, por ejemplo, los títulos más destacados en varias categorías fueron:</p>
     <div style="text-align: center;">
-        <img src="premios goodreads.png" alt="Descripción de la imagen" width="1000">    
+        <img src="premios goodreads.png" alt="Descripción de la imagen" width="1000">
     </div>
 <P>Al igual que los datos obtenidos en TikTok, estos libros también han sido objeto de atención masiva y han logrado destacarse en el mercado literario. La coincidencia entre los títulos más votados en los Goodreads Choice Awards con los más comentados en plataformas como TikTok y los Best Sellers del New York Times, demuestra que el fenómeno de la viralización en redes sociales tiene un impacto directo en la popularidad y el éxito de los libros.</P>
 <p>Aunque Colleen Hoover es, sin duda, una de las autoras más mencionadas y exitosas en redes sociales como TikTok, el impacto de las plataformas digitales no se limita únicamente a ella. Otros autores de romance y ficción histórica, como Taylor Jenkins Reid, y de no ficción, como Jennette McCurdy con su autobiografía, también han demostrado cómo las redes sociales pueden catapultar a escritores a la fama y el éxito comercial.</p>
-<p>Esto demuestra que el éxito en las redes sociales trasciende más allá de un solo nombre. Autores de diversos géneros y estilos están aprovechando el potencial de las plataformas digitales para alcanzar nuevos públicos y consolidarse como bestsellers, una tendencia que sigue ganando fuerza en la industria editorial.</p>     
+<p>Esto demuestra que el éxito en las redes sociales trasciende más allá de un solo nombre. Autores de diversos géneros y estilos están aprovechando el potencial de las plataformas digitales para alcanzar nuevos públicos y consolidarse como bestsellers, una tendencia que sigue ganando fuerza en la industria editorial.</p>
 </Section>
 <section id="Capítulo 5">
 <h2>Capítulo 5: La dominancia femenina</h2>
@@ -195,6 +198,7 @@
 <h3>Autores más mencionados en Tiktok</h3>
 <div class="flourish-embed flourish-chart" data-src="visualisation/20728881"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20728881/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 <p>El auge de mujeres escritoras no solo refleja un cambio en el mercado literario, sino también un giro cultural: las lectoras y creadoras están construyendo un nuevo panorama, uno donde las historias contadas por mujeres no solo son escuchadas, sino premiadas, celebradas y viralizadas.</p>
+</div>
 </section>
 
 
@@ -214,10 +218,10 @@
             <p>Ambas autoras tienen características en común que las posicionan como las siguientes grandes voces literarias. Emily Henry ha sabido modernizar las historias de romance con un enfoque fresco, humorístico y profundamente emocional que resuena con la audiencia joven de TikTok. Sus novelas, como Beach Read y Book Lovers, presentan protagonistas con los que los lectores pueden identificarse, lo que las convierte en obras recomendadas repetidamente en plataformas digitales. Por otro lado, Taylor Jenkins Reid ha demostrado ser una autora transmedia, dada la adaptación televisiva de Daisy Jones & The Six y la enorme popularidad de Los siete maridos de Evelyn Hugo. Esta capacidad de Reid para atraer a una audiencia crítica y comercial, junto con su habilidad para abordar temas complejos como la fama y las relaciones humanas, asegura que seguirá siendo una autora de relevancia tanto en el ámbito literario como en el mediático.
             </p>
             <div style="text-align: center;">
-                <img src="Emily Henry.png" alt="Descripción de la imagen" width="700">    
+                <img src="Emily Henry.png" alt="Descripción de la imagen" width="700">
             </div>
             <div style="text-align: center;">
-                <img src="Taylor jenkin reid.png" alt="Descripción de la imagen" width="700">    
+                <img src="Taylor jenkin reid.png" alt="Descripción de la imagen" width="700">
             </div>
             <p>El algoritmo de TikTok premia el contenido emocional y visualmente atractivo, y ambas autoras han sabido beneficiarse de esta dinámica. Videos que destacan frases impactantes de sus libros, portadas estéticas o escenas clave han generado un efecto cascada que sigue atrayendo a nuevos lectores. Esto sugiere que tanto Emily Henry como Taylor Jenkins Reid no solo seguirán siendo populares en TikTok, sino que también tienen el potencial de continuar su expansión hacia otros formatos, como adaptaciones cinematográficas o nuevas colecciones de libros, consolidando aún más su estatus dentro de la literatura contemporánea.</p>
             <p>Hoy en día, el hashtag #BookTok acumula más de 150 mil millones de visualizaciones en TikTok, consolidando a esta plataforma como un espacio imprescindible para los amantes de la literatura. Más allá de su función como lugar de descubrimiento literario, BookTok se ha convertido en una herramienta poderosa para la industria editorial, capaz de transformar libros poco conocidos en éxitos globales y de revitalizar el interés por obras que, de otro modo, podrían haber pasado desapercibidas. Este fenómeno no solo redefine cómo los lectores se conectan con la literatura, sino que también demuestra el potencial de las redes sociales para moldear la cultura popular y los hábitos de consumo en el ámbito editorial.</p>
@@ -228,7 +232,7 @@
                     Tu navegador no soporta el elemento de video.
                 </video>
             </div>
-            
+
         </section>
     </main>
 
@@ -248,5 +252,8 @@
             }, 3000);
         });
     </script>
+    <script src="graficos-altair/vis-autores.js" type="text/javascript"></script>
+    <script src="graficos-altair/vis-libros.js" type="text/javascript"></script>
+    <script src="graficos-altair/vis-generos.js" type="text/javascript"></script>
 </body>
 </html>

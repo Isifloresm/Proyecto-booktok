@@ -28,7 +28,6 @@ const spec_libros = {
     "height": 400,
     "title": "Top 10 Libros según el ranking The New York Times",
     "width": 600,
-    "background": "rgba(0, 0, 0, 0)",
     "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
     "datasets": {
         "data-4b550dc39cb2a45657ff00f897a9ad46": [
