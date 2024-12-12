@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif;
+    font-family:  serif;
     font-size: 2.8rem;
     margin: 0;
 }
@@ -403,4 +403,66 @@ iframe, .flourish-embed {
         position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
       }
   
-  
+      @import "compass/css3";
+
+      body {
+        background: darken(#34c4e8, 10%);
+        padding: 60px;
+      }
+      h1  {
+        color: lighten(#34c4e8, 30%);
+        font-family: 'Source Code Pro', sans-serif;
+        font-weight: 200;
+        margin: 0 0 40px;
+        text-align: center;
+      }
+  /* Estilo para el icono de hamburguesa */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger span {
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+}
+
+/* Estilo para el menú */
+nav {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Oculto inicialmente */
+  width: 200px;
+  height: 100vh;
+  background-color: #444;
+  transition: left 0.3s;
+  z-index: 1000;
+}
+
+nav.show {
+  left: 0; /* Mostrar el menú */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}

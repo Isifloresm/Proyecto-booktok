@@ -70,18 +70,29 @@
 
     <header>
         <img src="logo booktok.png" alt="Logo">
+        <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300' rel='stylesheet' type='text/css'>
+
         <h1> # Best sellers: La nueva era del mercado literario</h1>
-         <!-- Hack Para Desplegar el Menú activando un checkbox -->
-    <input type="checkbox" class="checkbox" id="menu-toogle"/>
-    <label for="menu-toogle" class="menu-toogle"></label>
-    <nav class="nav">
-      <a href="#Capítulo 1" class="nav__item current">Capítulo 1</a>
-      <a href="#Capítulo 2" class="nav__item">Capítulo 2</a>
-      <a href="#Capítulo 3" class="nav__item">Capítulo 3</a>
-      <a href="#Capítulo 4" class="nav__item">Capítulo 4</a>
-      <a href="#Capítulo 5" class="nav__item">Capítulo 5</a>
-      <a href="#Capítulo 6" class="nav__item">Capítulo 6</a>
+
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <!-- Icono de hamburguesa -->
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="#Capítulo 1" class="nav__item current">Capítulo 1</a></li>
+            <li><a href="#Capítulo 2" class="nav__item">Capítulo 2</a></li>
+            <li><a href="#Capítulo 3" class="nav__item">Capítulo 3</a></li>
+            <li><a href="#Capítulo 4" class="nav__item">Capítulo 4</a></li>
+            <li><a href="#Capítulo 5" class="nav__item">Capítulo 5</a></li>
+            <li> <a href="#Capítulo 6" class="nav__item">Capítulo 6</a></li>
+
+        </ul>
     </nav>
+
     </header>
 
     <main>
@@ -255,5 +266,7 @@
     <script src="graficos-altair/vis-autores.js" type="text/javascript"></script>
     <script src="graficos-altair/vis-libros.js" type="text/javascript"></script>
     <script src="graficos-altair/vis-generos.js" type="text/javascript"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
