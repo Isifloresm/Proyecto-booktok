@@ -28,7 +28,6 @@ const spec = {
     "height": 400,
     "title": "Top 10 Autores más vendidos en 2022 y 2023",
     "width": 600,
-    "background": "rgba(0, 0, 0, 0)",
     "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
     "datasets": {
         "data-d88b0df4aaa6a287679cc2719d6e4481": [
