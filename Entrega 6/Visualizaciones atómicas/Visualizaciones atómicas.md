@@ -1,16 +1,24 @@
-Generamos dos bases de datos que nos permitieron analizar el impacto de TikTok en el consumo de libros desde diferentes perspectivas. La primera base de datos se construyó a partir de la sección de Best Sellers del The New York Times de los años 2021, 2022 y 2023. En ella, registramos información clave como los autores destacados, los géneros literarios predominantes, los años de publicación de los libros, su posición en el ranking y su permanencia en las listas de ventas. Esto nos permitió identificar patrones en las tendencias del mercado literario, como la popularidad de ciertos géneros (romance, fantasía, autoayuda, entre otros) y el resurgimiento de títulos más antiguos, posiblemente impulsados por la viralidad en redes sociales como TikTok.
+# Visualizaciones Atómicas 
 
-La segunda base de datos se construyó a partir de métricas recopiladas de videos en TikTok que utilizaban el hashtag #BookTok. Nos enfocamos en aquellos videos con mayor viralidad y registramos datos como la cantidad de visualizaciones, likes y comentarios. Estas métricas nos ayudaron a identificar qué libros y autores eran los más mencionados y qué tipo de contenido generaba mayor interacción entre los usuarios de la plataforma.
+## Autores más mencionados en Tiktok
+![alt text](<autores fl.png>)
+## Autores más vendidos según New York Times
+![alt text](<altair autores.png>)
+## Libros más vendidos según New York Times
+![alt text](<altair libros.png>)
+## Libros más mencionados en TikTok
+![alt text](image-3.png)
+## Géneros más vendidos según New York Times 
+![alt text](image-2.png)
+## Géneros más mencionados en Tiktok
+![alt text](image-1.png)
 
-Al conectar ambas bases de datos, pudimos establecer una relación directa entre los libros que alcanzaron el éxito comercial en las listas de The New York Times y aquellos que se destacaron en la comunidad de BookTok. Esto nos permitió demostrar cómo la viralidad en TikTok influenció positivamente el comportamiento de consumo literario, consolidando tendencias y promoviendo obras que, de otro modo, podrían haber pasado desapercibidas en el mercado editorial.
+Al utilizar la base de datos de Tiktok y transformarla en autores, géneros y libros más mencionados ofrece una evidencia tangible de cómo las tendencias en esta plataforma están moldeando el mercado editorial. Al mostrar de manera clara y concisa qué autores están ganando popularidad gracias a TikTok, este gráfico no solo refuerza la idea de que BookTok es una fuerza influyente en la industria, sino que también permite analizar patrones, tendencias y el papel que juegan las recomendaciones de los usuarios en las decisiones de publicación y marketing de las editoriales.
 
-![Flourish autores tiktok](visualizaciones\autores tiktok.jpg)
+Por otro lado la lista de best-sellers del New York Times es un referente en el mundo editorial. Este gráfico presenta que tipo de autores y libros se han repetido a través de los años. Al analizar esta selección, podemos identificar tendencias en los autores y además se puede utilizar para comparar visualmente si hay coincidencias entre los más mencionados en Tiktok y New York Times.
 
-![Flourish Libros tiktok](libtos%20fl.png)
-
-![altair autores ](visualizaciones\altair autores.png)
-
-![Altair libros](visualizaciones\altair autores.png)
+## Cómo se realizaron los gráficos en Flourish 
+A partir del análisis de las bases de datos recopiladas, usamos Flourish para crear gráficos interactivos que revelan de manera clara y atractiva las tendencias emergentes. Estas visualizaciones permiten comprender la correlación entre la popularidad en redes sociales, como TikTok, y el éxito editorial. Para ello, cargamos nuestros datos en Flourish, seleccionamos el tipo de gráfico más adecuado, de barras en este caso, personalizamos la estética y la interactividad del gráfico, y agregamos elementos como tooltips y filtros para que los usuarios puedan explorar los datos a profundidad.
 
 
 
